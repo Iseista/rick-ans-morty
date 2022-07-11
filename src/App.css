@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+
+  font-size: 15px;
+  background-color: hsl(210, 29%, 24%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.location-container{
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  overflow: hidden;
+  width: 1420px;
+  margin: 25px auto;
+  grid-auto-flow: dense;
+}
+.container-buscar{
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  grid-column: 1/4;
+  background-image: url(../src/images/27355-rick-y-morty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+.container-buscar h1{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  background: hsl(145, 63%, 43%);
+  font-weight: 600;
+  font-size: 3em;
+  line-height: 2;
+  letter-spacing: 4px;
+  margin-bottom: 0.5em;
+  width: 750px;
+  margin-top: -3.5em;
+  margin-left: -2em;
+  
+}
+.container-buscar input{
+  position: absolute;
+  width: 300px;
+  line-height: 2;
+  margin-bottom: 2em;
+  z-index: 1;
+  margin-top: 5em;
+  
+  
+}
+.container-buscar button{
+  position: absolute;
+  line-height: 2;
+  width: 300px;
+  margin-top: 2.5em;
+  background: hsl(145, 63%, 43%);
+  border: none;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  margin-bottom: -5em;
+  z-index: 1;
+}
+.container-buscar h2{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 5px;
+  background: hsl(283, 39%, 53%);
+  width: 540px;
+  text-align: left;
+  margin-top: -2em;
+  margin-left: -13em;
+  line-height: 3;
+  font-size: 3;
+  letter-spacing: 0.5em;
+}
+.container-buscar-word{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  justify-content:space-evenly;
+  margin-top: 17.5em;
+ 
+}
+.container-buscar-word p{
+  text-decoration: none;
+  color: white;
+  margin-top: -1.5em;
+  background: hsl(210, 29%, 25%); 
+  width: 100px;
+  line-height: 0.99;
+  font-size: larger;
+}
+.container-buscar-word span{
+  display: block;
+  background: rgb(255, 255, 255,0.8);
+  color: hsl(210, 29%, 25%);
+  line-height: 2;
+  margin-left: .5em;
+  width: 150px;
+}
+.resident-info-container{
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 20rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-auto-flow: dense;
+
+  
+}
+.caja{
+  background: white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 6em;
+  position: relative;
+}
+.caja img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -15em;
+  position: absolute;
+}
+.caja h1{
+  font-size: 1.5em;
+  font-weight: 500;
+  font-size: larger;
+  margin-top: -3em;
+  position: absolute;
+}
+.caja-info{
+  background: hsl(204, 8%, 90%);
+  width: 100%;
+  height: 130px;
+  margin-top: 10em;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.caja-info-status{
+  color: hsl(283, 39%, 53%);
+  position: relative;
+  margin-top: -11em;
+  position: absolute;
+  
+}
+.caja-info span{
+  color: hsl(145, 63%, 43%);
+  border-radius: 20%;
+  font-size: 2em;
+  line-height: 1;
+  margin-left: 0.2em;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -60px;
+  
+  
+ 
+  
+  
+}
